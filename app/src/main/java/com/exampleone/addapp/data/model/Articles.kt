@@ -1,10 +1,9 @@
 package com.exampleone.addapp.data.model
 
 data class Articles(
-    val easyArt: String? = null,
-    val normalArt: String? = null,
-    val hardArt: String? = null,
-) {
+    var easyArt: String? = null,
+    var normalArt: String? = null,
+    var hardArt: String? = null
+)
 
 
-}
